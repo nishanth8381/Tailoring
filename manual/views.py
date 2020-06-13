@@ -6,3 +6,6 @@ def home(request):
 
 def List(request):
     return render(request,"list.html")
+
+def napkin(request):
+    return render(request,"napkin.html")
