@@ -25,7 +25,7 @@ SECRET_KEY = 'mtoj&(tu5ptn4x7ev0pp+e0)@&915e7a_y%+$^m9i%14bt-ggs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["tailoring.pythonanywhere.com"]
 
 
 # Application definition
@@ -121,6 +121,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'static')
-    
+
     ]
 STATIC_ROOT=os.path.join(BASE_DIR,'assets')
