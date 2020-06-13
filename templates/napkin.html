@@ -1,3 +1,5 @@
+{% load static %}
+{% static "images" as baseUrl %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -57,7 +59,8 @@
     <div class="container" style="padding-top: 50px;">
         
         <h3 style="text-decoration: underline; text-align: center; color: blue;">Kitchen Napkin</h3><br>
-        
+        <img src="static/images/napkin.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 25%;">
+        <br>
         <div class="row">
         <div class="col-sm">
         <div class="card" style="width: 30rem;">
