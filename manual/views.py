@@ -9,3 +9,15 @@ def List(request):
 
 def napkin(request):
     return render(request,"napkin.html")
+
+def pcover(request):
+    return render(request,"pillowCover.html")
+
+def slip(request):
+    return render(request,"slip.html")
+
+def shimmi(request):
+    return render(request,"shimmi.html")
+
+def ufrock(request):
+    return render(request,"ufrock.html")

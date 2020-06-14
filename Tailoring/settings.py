@@ -25,7 +25,7 @@ SECRET_KEY = 'mtoj&(tu5ptn4x7ev0pp+e0)@&915e7a_y%+$^m9i%14bt-ggs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["tailoring.pythonanywhere.com"]
+ALLOWED_HOSTS = ["tailoring.pythonanywhere.com","localhost"]
 
 
 # Application definition
