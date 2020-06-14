@@ -21,3 +21,15 @@ def shimmi(request):
 
 def ufrock(request):
     return render(request,"ufrock.html")
+
+def inskirt(request):
+    return render(request,"inskirt.html")
+
+def nightie(request):
+    return render(request,"nightie.html")
+
+def salwar_pant(request):
+    return render(request,"salwar_pant.html")
+
+def gpant(request):
+    return render(request,"gpant.html")

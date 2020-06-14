@@ -1,0 +1,147 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Tailoring</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tailoring</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="list">List of products</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/napkin">Kitchen Napkin</a>
+                <a class="dropdown-item" href="/pcover">Pillow Cover</a>
+                <a class="dropdown-item" href="/slip">Slip</a>
+                <a class="dropdown-item" href="#">Shimmi</a>
+                <a class="dropdown-item" href="#">Umbrella Frock</a>
+                <a class="dropdown-item" href="#">In-skirt</a>
+                <a class="dropdown-item" href="#">Nightie</a>
+                <a class="dropdown-item" href="#">Salwar Pant</a>
+                <a class="dropdown-item" href="#">Gathering Pant</a>
+                <a class="dropdown-item" href="#">Pattiyala Pant</a>
+                <a class="dropdown-item" href="#">Kameez</a>
+                <a class="dropdown-item" href="#">Collar Kurtha</a>
+                <a class="dropdown-item" href="#">Cut Blouse with piping</a>
+              </div>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <div class="container" style="padding-top: 50px;">
+        
+        <h3 style="text-decoration: underline; text-align: center; color: blue;">Nightie</h3><br>
+        <img src="static/images/napkin.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 25%;">
+        <br>
+        <div class="row">
+        <div class="col-sm">
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+              <h5 class="card-title" style="text-decoration: underline; color: green;">Measurements : </h5>
+              <ul class="list-group">
+                <li class="list-group-item">full length - 56 </li>
+                <li class="list-group-item">chest  - 38 </li>
+                <li class="list-group-item">shoulder  - 15 </li>
+                <li class="list-group-item">sleeve length  - 6 </li>
+                <li class="list-group-item">sleeve round  - 14 </li>
+              </ul>
+            </div>
+        </div>
+        <br>
+        <div class="card" style="width: 30rem;">
+            <div class="card-body">
+              <h5 class="card-title" style="text-decoration: underline; color: green;">Drafting (sleeve part) : </h5>
+              <ul class="list-group">
+                <li class="list-group-item">0-1 = sleeve length + 1" </li>
+                <li class="list-group-item">0-2 = 1/6 chest + 3"</li>
+                <li class="list-group-item">1-3 = 1/2 sleeve round + 1"</li>
+                <li class="list-group-item">0-4 and 2-5 = 1/12 chest</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+
+        <br><br>
+        
+        <div class="col-sm">
+        <div class="card" style="width: 30rem;">
+            <div class="card-body"> 
+              <h5 class="card-title" style="text-decoration: underline; color: green;">Drafting (Body part) : </h5>
+              <ul class="list-group">
+                <li class="list-group-item">0-1 = full length + 1" </li>
+                <li class="list-group-item">0-2 = 1/6 chest + 1"</li>
+                <li class="list-group-item">2-3 = 1/4 chest + 2"</li>
+                <li class="list-group-item">1-4 = material width</li>
+                <li class="list-group-item">0-5 and 2-5' = 1/2 shoulder - 0.5"</li>
+                <li class="list-group-item">0-6 = 1/12 chest - 0.5"</li>
+                <li class="list-group-item">0-7 = back neck</li>
+                <li class="list-group-item">0-8 = front neck</li>
+                <li class="list-group-item">x = midpoint of 5-5'</li>
+                <li class="list-group-item">x-x' = 1.5" inside</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+        <br>
+        <hr><br>
+        
+            <h3 style="color: pink; text-align: center; text-decoration: underline;">Methodology</h3>
+            <br><br>
+            <ul class="list-group">
+                <li class="list-group-item">1. After marking for shoulder and neck that is 1-5  1-6  1-2 and 2-3</li>
+                <li class="list-group-item">2. Now from 3 to 4 croosly have to mark till u</li>
+                <li class="list-group-item">3. Now for zip extra 3" width, 8" long piece have to cut and attach at the middle of the nightie from part/li>
+                <li class="list-group-item">4. For that 3cm cloth , sides have to stitch 3 side and attach at the middle like (V)</li>
+                <li class="list-group-item">5. Now that cloth have to tuen inside by cutting at the middle</li>
+                <li class="list-group-item">6. Now that extra cloth have to turn inside and stitch</li>
+                <li class="list-group-item">7. Now zip have to attach</li>
+                <li class="list-group-item">8. shoulder have to attach</li>
+                <li class="list-group-item">9. Neck piece have to attach that ( crosspiece ) </li>
+                <li class="list-group-item">10. hand have to attach</li>
+                <li class="list-group-item">11. sides have to attach</li>
+                <li class="list-group-item">12. now down have to stitch</li>
+                <li class="list-group-item">13. Flirts 2.5" have to cut equally</li>
+                <li class="list-group-item">14. For the Flirts round have to measure from shoulder to chest and cloth have to cut double to the measure</li>
+                
+              </ul>
+        
+        
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
