@@ -33,3 +33,16 @@ def salwar_pant(request):
 
 def gpant(request):
     return render(request,"gpant.html")
+
+def ppant(request):
+    return render(request,"ppant.html")
+
+def kameez(request):
+    return render(request,"kameez.html")
+
+def ckurtha(request):
+    return render(request,"ckurtha.html")  
+
+def blouse(request):
+    return render(request,"blouse.html") 
+

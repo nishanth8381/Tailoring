@@ -13,5 +13,9 @@ urlpatterns= [
     path('inskirt',views.inskirt,name='inskirt'),
     path('nightie',views.nightie,name='nightie'),
     path('salwar_pant',views.salwar_pant,name='salwar_pant'),
-    path('gpant',views.gpant,name='gpant')
+    path('gpant',views.gpant,name='gpant'),
+    path('ppant',views.ppant,name='ppant'),
+    path('kameez',views.kameez,name='kameez'),
+    path('ckurtha',views.ckurtha,name='ckurtha'),
+    path('blouse',views.blouse,name='blouse')
 ]
