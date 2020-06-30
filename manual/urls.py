@@ -17,5 +17,6 @@ urlpatterns= [
     path('ppant',views.ppant,name='ppant'),
     path('kameez',views.kameez,name='kameez'),
     path('ckurtha',views.ckurtha,name='ckurtha'),
-    path('blouse',views.blouse,name='blouse')
+    path('blouse',views.blouse,name='blouse'),
+    path('patrika',views.patrika,name='patrika')
 ]

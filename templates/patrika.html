@@ -1,3 +1,5 @@
+{% load static %}
+{% static "images" as baseUrl %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -25,9 +27,10 @@
             <li class="nav-item">
               <a class="nav-link" href="list">List of products</a>
             </li>
+            
             <li class="nav-item">
-              <a class="nav-link" href="/patrika">Bakhti Patrika</a>
-            </li>
+                <a class="nav-link" href="/patrika">Bakhti Patrika</a>
+              </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Product dropdown
@@ -56,12 +59,28 @@
           </form>
         </div>
       </nav>
-     <div class="container" style="padding-top: 50px;">
-        <img src="static/images/wall.jpg" style="display: block;margin-left: auto;margin-right: auto;width: 75%;" >
-        <h4 style="text-align: center; color:  palevioletred;" >for AMMA</h4>
-      </div> 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <div class="container" style="padding-top: 50px;">
+
+        <br>
+        <h3 style="text-align: center; text-decoration: underline; color:blue;">List of all Magazines</h3>
+        <div class="list-group" style="padding-top: 50px;">
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_94/tmpl/mobile/index.html" class="list-group-item list-group-item-action">July 2020</a>
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_93/tmpl/mobile/index.html" class="list-group-item list-group-item-action">June 2020</a>
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_92/tmpl/mobile/index.html" class="list-group-item list-group-item-action">May 2020</a>
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_91/tmpl/mobile/index.html" class="list-group-item list-group-item-action">April 2020</a>
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_90/tmpl/mobile/index.html" class="list-group-item list-group-item-action">March 2020</a>
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_89/tmpl/mobile/index.html" class="list-group-item list-group-item-action">February 2020</a>
+            <a href="http://bhakthipatrika.bhakthitv.in/modules/mod_flipbook_88/tmpl/mobile/index.html" class="list-group-item list-group-item-action">January 2020</a>
+          </div>
+
+    </div>
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

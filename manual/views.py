@@ -31,6 +31,9 @@ def nightie(request):
 def salwar_pant(request):
     return render(request,"salwar_pant.html")
 
+def patrika(request):
+    return render(request,"patrika.html")
+
 def gpant(request):
     return render(request,"gpant.html")
 
